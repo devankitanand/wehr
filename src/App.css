@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.app-main-div {
+  margin: auto;
+  max-width: 1400px;
+  display: flex;
+  /* background-color: red; */
+}
+.wehr{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.mainmenu{
+  font-size: 12px;
+  font-weight: 300;
+  color: #686868;
+  margin-left: 32px;
+  padding-bottom: 10px;
+}
