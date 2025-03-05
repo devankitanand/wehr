@@ -100,7 +100,7 @@ function Navbar() {
       </div>
 
       <div className="account-box">
-        <div className="nav-item" onClick={handlePushNotification}>
+        <div className="nav-item pn" onClick={handlePushNotification}>
           Push Notification
         </div>
         <div className="nav-item">
