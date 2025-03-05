@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 30px;
+  padding: 0px 0px 0 30px;
 }
 .serach-box {
   width: 30%;
@@ -24,7 +24,9 @@
   margin-left: -25px;
 }
 .account-box {
-  width: 30%;
+  position: relative;
+  display: inline-block;
+  width: 45%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,9 +44,43 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
+.dp{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
 .dropdown{
   margin-right: 10px;
   display: none;
+}
+.dropdown-content {
+  display: none; 
+  position: absolute;
+  top: 60px;
+  right: 10px;
+    padding: 10px 20px;
+    width: max-content;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+  overflow: hidden;
+  font-size: 15px;
+  color: #565656;
+  cursor: pointer;
+}
+
+.option{
+ cursor: pointer;
+}
+
+.e{
+  padding-bottom: 10px;
+}
+
+.account-box:hover .dropdown-content{
+  display: block;
 }
 
 @media screen and (max-width:  834px) {
